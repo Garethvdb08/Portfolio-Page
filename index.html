@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- SEO and Metadata Improvements -->
+    <title>Gareth vdb - Frontend Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio for Gareth vdb, a passionate frontend developer specializing in React, TypeScript, and modern web technologies. Explore projects and skills." />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gareth vdb - Frontend Developer Portfolio">
+    <meta property="og:description" content="A passionate frontend developer crafting beautiful and functional web experiences.">
+    <!-- Note: Replace with actual URLs when deployed -->
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://example.com/og-image.png">
+
+    <!-- Custom Favicon (Yellow Star Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'huffle-yellow': '#FFC700',
+              'huffle-dark': '#1A202C',
+              'huffle-darker': '#121212',
+              'huffle-light': '#F7FAFC',
+              'huffle-gray': '#A0AEC0',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+              'subtle-shine': 'subtleShine 5s infinite linear',
+              'stars-slow': 'starsMove 150s linear infinite, twinkle 7s ease-in-out infinite alternate',
+              'stars-medium': 'starsMove 100s linear infinite, twinkle 5s ease-in-out infinite alternate',
+              'stars-fast': 'starsMove 50s linear infinite, twinkle 3s ease-in-out infinite alternate',
+              'space-gradient': 'spaceGradient 20s ease infinite alternate',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              subtleShine: {
+                '0%, 100%': { 'box-shadow': '0 0 8px 0px rgba(255, 199, 0, 0.2)' },
+                '50%': { 'box-shadow': '0 0 16px 4px rgba(255, 199, 0, 0.2)' },
+              },
+              starsMove: {
+                'from': { transform: 'translateY(0)' },
+                'to': { transform: 'translateY(-2000px)' },
+              },
+              spaceGradient: {
+                '0%': { backgroundPosition: '0% 0%' },
+                '100%': { backgroundPosition: '100% 100%' },
+              },
+              twinkle: {
+                '0%, 100%': { opacity: '0.4' },
+                '50%': { opacity: '0.9' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-huffle-darker text-huffle-light">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
