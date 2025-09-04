@@ -11,7 +11,7 @@
 
 Explore the live version of the portfolio here:
 
-**[View Live Site on Vercel](https://your-vercel-deployment-link.vercel.app/)**
+**[View Live Site on Vercel](https://portfolio-page-two-theta.vercel.app/)**
 
 ## ✨ Key Features
 
